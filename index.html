@@ -1,0 +1,48 @@
+<!DOCTYPE html><!--なぜ <! DOCTYPE html> を書く必要があるかというと、ブラウザが文書を「標準モード」で表示するように指示するためです。 書かなかった場合、一部のブラウザでHTMLやCSSが意図したとおりに表示されない可能性-->
+<html lang="ja"><!--言語が日本語であることを表しています-->
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css"><!--ブックマーク参照-->
+    <title>文字並び替え</title>
+    <meta name="viewport"
+   content="width=320,
+      height=480,
+      initial-scale=1.0,
+      minimum-scale=1.0,
+      maximum-scale=2.0,
+      user-scalable=yes" />
+</head>
+
+<body>
+    <div id="start">
+        <p>文字を並べて、言葉を作りましょう</p>
+    </div>
+    <div id="game">
+        <h1></h1>
+        <div id="field">
+            <div id="answer-area">
+                <div class="answer">1</div>
+                <div class="answer">2</div>
+                <div class="answer">3</div>
+                <div class="answer">4</div>
+            </div>
+            <div id="select-area">
+                <div class="select">さ</div>
+                <div class="select">い</div>
+                <div class="select">は</div>
+                <div class="select">く</div>
+            </div>
+        </div>
+        <div id="btn">
+            <button onclick="showQuestion()">やり直す</button>
+        </div>
+    </div>
+    <div id="next">
+
+    </div>
+
+    <script type="text/javascript" src="main.js"></script>
+</body>
+
+</html>
