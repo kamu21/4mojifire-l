@@ -1,3 +1,4 @@
+
 div.is-hidden {
     display: none;/*ウェブページでは「display: none」というCSSを使うと、要素を非表示にできます*/
 }
@@ -11,9 +12,9 @@ body {
 .answer {
     display: inline-block;/*ブックマーク参照*/
     padding: 0.5em 1em;
-    margin: 2em 0;
+    margin: 0.5em 0;
     font-weight: bold;/*font-weightとはフォントの太さを指定するプロパティ。boldフォントを太字に指定*/
-    font-size: 30px;
+    font-size: 40px;
     color: #6091d3;/*文字色*/
     background: #FFF;/*背景色*/
     border: solid 3px #6091d3;/*線*/
@@ -22,7 +23,7 @@ body {
 .select {
     display: inline-block;
     padding: 0.5em 1em;
-    margin: 2em 0;
+    margin: 0.5em 0;
     font-weight: bold;
     font-size: 60px;
     color: #6091d3;/*文字色*/
