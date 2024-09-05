@@ -1,4 +1,3 @@
-
 div.is-hidden {
     display: none;/*ウェブページでは「display: none」というCSSを使うと、要素を非表示にできます*/
 }
@@ -30,12 +29,6 @@ body {
     background: #FFF;/*背景色*/
     border: solid 3px #6091d3;/*線*/
     border-radius: 10px;/*角の丸み*/
-}
-.select:hover {/*「:hover」は疑似クラスの一種で、Webサイトの要素に追加しておくことで、カーソルを合わせた時に変化（アクション）をつけることができます*/
-    background: #333;/*背景色*/
-    border: 2px solid #333;
-    color: #fff;/*文字色*/
-    cursor: pointer;/*カーソルをポインターに変える*/
 }
 p {
     padding: 0.5em 1em;
