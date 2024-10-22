@@ -1152,6 +1152,18 @@ const question = [
         q: "選挙で負けたらただの人",
         a: ["せ", "い", "じ", "か"]
     },
+    {
+        q: "電波を送受信",
+        a: ["ア", "ン", "テ", "ナ"]
+    },
+    {
+        q: "水がでる",
+        a: ["す", "い", "ど", "う"]
+    },
+    {
+        q: "野菜",
+        a: ["パ", "プ", "リ", "カ"]
+    },
 ];
 
 //top画面
@@ -1246,10 +1258,10 @@ function showQuestion() {
 function Judgment() {
     changescene(scecegame, next);
     if (JSON.stringify(question[questionnum].a) == JSON.stringify(answers)) {
-        next.innerHTML = "<p style='font-size:5em;color:#008000;'>正解です！</p><button onclick='nextquestion()'>次に　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　進みましょう！！！！！！！！！！</button>";
+        next.innerHTML = "<p style='font-size:5em;color:#008000;'>正解です！</p><button onclick='nextquestion()'>次へ　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　進みます！！！！！！！！！！！！</button>";
 
     } else {
-        next.innerHTML = "<p style='font-size:5em;color:#008080;'>いいですね！</p><button onclick='nextquestion()'>次に　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　進みましょう！！！！！！！！！！</button>";
+        next.innerHTML = "<p style='font-size:5em;color:#008080;'>いいですね！</p><button onclick='nextquestion()'>次へ　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　進みます！！！！！！！！！！！！</button>";
     }
 }
 
